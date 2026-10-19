@@ -2,7 +2,7 @@
 
 Crash prevention and diagnostic logging plugins for Deadly Premonition: The Director's Cut (DP.exe).
 
-Note: This project is currently in Beta (v0.9.0-beta). Fixes are actively tested and added throughout playthroughs. Version 1.0 will be tagged once a full playthrough is completed without unhandled crashes.
+Note: This project is currently in Beta (v0.1.0). Fixes are actively tested and added throughout playthroughs. Version 1.0 will be tagged once a full playthrough is completed without unhandled crashes.
 
 ## Overview
 
@@ -14,7 +14,7 @@ A lightweight patch plugin that hooks into the game process at runtime to preven
 2. CrashLogger (CrashLogger.asi)
 A diagnostic crash reporter that captures unhandled exceptions, writes minidump files (.dmp), records register states, walks stack backtraces, and logs file access breadcrumbs. Does not modify any game code.
 
-## Current Fixes (v0.9.0-beta)
+## Current Fixes (v0.1.0)
 
 ### Episode 2 Part 1 Art Gallery Cutscene Crash
 In the vanilla game, exiting the art gallery cutscene causes an invalid AI state transition for normal NPCs:
