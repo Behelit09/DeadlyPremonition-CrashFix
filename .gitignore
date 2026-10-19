@@ -1,0 +1,27 @@
+# Build outputs and cache
+.cache/
+.zig-cache/
+*.obj
+*.pdb
+*.lib
+*.exp
+tools/*.exe
+
+# Intermediate test binaries
+test/*.exe
+test/*.obj
+test/*.pdb
+
+# Crash dumps and logs
+*.log
+*.dmp
+*.txt
+CrashLogs/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+.vscode/
+.idea/
